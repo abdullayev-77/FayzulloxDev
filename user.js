@@ -34,7 +34,7 @@ let array = [
     let son = 0 
     
     let left = document.querySelector(".left")
-    array.forEach((element,index) => {
+    array.forEach((element) => {
       let img = document.createElement("img")
       img.src = element.img
       img.alt = "img"
@@ -52,8 +52,7 @@ let array = [
       
       img.addEventListener("click", ()=> {
           let array1 = right.childNodes
-        console.log(array1);
-        array1.forEach(item => {
+            array1.forEach(item => {
           item.style.transform = "translateX(0px)"
         })
         left.style.transform = "translateY(-"+ index * 500 + "px)"
