@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .main {
+        width: 100%;
+        height: 100vh;
+        transition: 0.5s;
+
+    }
+
+    .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        position: relative;
+        top: 10px;
+    }
+
+    .navbar h5 {
+        font-family: sans-serif;
+        font-size: 35px;
+        font-weight: 400;
+    }
+
+    .navbar button {
+        width: 80px;
+        height: 30px;
+        background-color: #bd3f68;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .heder {
+        width: 100%;
+        height: 80vh;
+        display: block;
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;
+        top: 80px;
+    }
+
+    .box {
+        width: 100%;
+        height: 20vh;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+    .box h3 {
+        font-family: sans-serif;
+        font-size: 25px;
+        color: #bd3f68;
+    }
+
+    .box h5 {
+        font-family: sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        margin-top: 10px;
+
+    }
+
+    .box h6 {
+        font-style: italic;
+        font-weight: 400;
+        color: gray;
+        font-size: 13px;
+        margin-top: 5px;
+
+    }
+
+    .hidden {
+        display: none;
+    }
+</style>
+
+<body>
+    <div class="main">
+        <div class="navbar">
+            <h5 class="text1">Overreacted</h5>
+            <button id="btn1">Toggel</button>
+            <button id="btn2" class="hidden">Toggel</button>
+
+        </div>
+        <div class="heder">
+            <div class="box">
+                <h3 class="tx1">The WET Codbase</h3>
+                <h6>October 4th, 2020</h6>
+                <h5 class="text2">I'm baby ramps kombucha gluten-free ennui swag tattooed street art. Marfa biodiesel
+                    letterpress blue bottle subway tile, pop-up pok pok of</h5>
+            </div>
+            <div class="box">
+                <h3 class="tx2">Goodby, Clean Code</h3>
+                <h6>November 22nd, 2019 5 min read</h6>
+                <h5 class="text3">Biodiesel artisan seitan plaid sriracha copper mug venmo shabby chic. Kickstarter
+                    raclette kombucha, yr post-ironic jianbing try-hard flexitarian vaporware normcore. </h5> </div>
+                <div class="box">
+                    <h3 class="tx3">My Decade In Review</h3>
+                    <h6>August 11th, 2018</h6>
+                    <h5 class="text4">Direct trade shabby chic four dollar toast, tilde actually try-hard bicycle rights
+                        aesthetic forage. Meditation keytar asymmetrical tacos artisan truffaut. Pabst jean shorts roof
+                        party scenester</h5 ></div>
+                    <div class="box">
+                        <h3 class="tx4">What Are The React <br> Team Principles</h3>
+                        <h6>June 4th, 2015 5 min read</h6>
+                        <h5 class="text5">Selvage street art hammock affogato VHS. Mustache shaman literally wayfarers
+                            schlitz. Direct trade four loko narwhal VHS pop-up, chartreuse trust fund typewriter street
+                            art swag thundercats art party</h5>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+</body>
+<script src="back.js"></script>
+
+</html>
